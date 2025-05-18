@@ -2,7 +2,7 @@
 This repository contains all code, data, and analysis for our Visual Recognition Mini Project 2, focused on VQA (Visual Question Answering) using transformer-based models like ViLT and BLIP.
 
 ## Directory Structure
-VR_MiniProject2/
+"""VR_MiniProject2/
 ├── curated_dataset.csv         # Directory containing QnA CSV files
 ├── notebooks/                    # Jupyter notebooks for training, evaluation, and visualization
 │   ├── blip-lora-ft.ipynb       # Fine-tuning and evaluating BLIP model
@@ -14,7 +14,7 @@ VR_MiniProject2/
 │   ├── inference.py             # Inference script
 │   └── requirements.txt         # Dependencies file
 ├── Report.pdf                   # Project report
-└── README.md                    # Project overview
+└── README.md                    # Project overview""""
 
 
 ## How to Run
