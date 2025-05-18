@@ -3,18 +3,18 @@ This repository contains all code, data, and analysis for our Visual Recognition
 
 ## Directory Structure
 VR_MiniProject2/
-├── curated_dataset.csv/ # Contains QnA CSV files
-├── notebooks/ # Jupyter notebooks for training, evaluation, and visualization
-│ ├── blip-lora-ft.ipynb # Fine-tuning and evaluating BLIP model
-│ ├── fine-tuning-vilt-1.ipynb # ViLT-1 training with custom label mapping
-│ ├── fine-tuning-vilt-2.ipynb # ViLT-2 training with cosine similarity-based label replacement
-│ ├── baseline-evaluation-vilt.ipynb # ViLT baseline evluation
-│ ├── blip_baseline.ipynb # BLIP Baseline
-├── MS2024018/ # Inference and requirements file
-│ ├── inference.py # Inference script
-│ ├── requirements.txt # Dependencies script
-├── Report.pdf # Project report
-├── README.md # Project overview
+├── curated_dataset.csv         # Directory containing QnA CSV files
+├── notebooks/                    # Jupyter notebooks for training, evaluation, and visualization
+│   ├── blip-lora-ft.ipynb       # Fine-tuning and evaluating BLIP model
+│   ├── fine-tuning-vilt-1.ipynb # ViLT-1 training with custom label mapping
+│   ├── fine-tuning-vilt-2.ipynb # ViLT-2 training with cosine similarity-based label replacement
+│   ├── baseline-evaluation-vilt.ipynb # ViLT baseline evaluation
+│   └── blip_baseline.ipynb      # BLIP Baseline evaluation
+├── MS2024018/                   # Inference and requirements directory
+│   ├── inference.py             # Inference script
+│   └── requirements.txt         # Dependencies file
+├── Report.pdf                   # Project report
+└── README.md                    # Project overview
 
 
 ## How to Run
