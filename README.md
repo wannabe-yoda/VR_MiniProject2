@@ -6,6 +6,7 @@ This repository contains all code, data, and analysis for our Visual Recognition
 VR_MiniProject2/
 ├── curated_dataset.csv         # Directory containing QnA CSV files
 ├── notebooks/                    # Jupyter notebooks for training, evaluation, and visualization
+│   ├── API_Call.ipynb            # Dataset Creation
 │   ├── blip-lora-ft.ipynb       # Fine-tuning and evaluating BLIP model
 │   ├── fine-tuning-vilt-1.ipynb # ViLT-1 training with custom label mapping
 │   ├── fine-tuning-vilt-2.ipynb # ViLT-2 training with cosine similarity-based label replacement
